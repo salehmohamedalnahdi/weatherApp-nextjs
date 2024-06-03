@@ -21,14 +21,14 @@
   }
 }
 /* header & footer */
-body{@apply bg-blue-400}
-body header{@apply flex md:justify-between  bg-blue-500 h-10 uppercase md:px-4 text-white }
+body{@apply  bg-[url('/sky3.jpg')] bg-cover}
+body header{@apply flex md:justify-between  bg-blue-500 h-10 uppercase md:px-4 text-white shadow-xl}
 .title-signup{@apply flex md:items-center}
 body header h1{@apply font-bold md:text-xl }
 h2{@apply font-bold text-sm  md:pl-2}
 .pages{@apply flex md:items-center md:px-10 }
 body header h2{@apply mx-4 hover:scale-125 transition ease-out duration-500}
-body footer{@apply mt-2 text-white text-center py-6 bg-blue-500 font-semibold text-lg }
+body footer{@apply  mt-2 text-white text-center py-6 bg-blue-500 font-semibold text-lg }
 
 /* home +fetch.js*/
 .containers{@apply flex justify-center }
@@ -43,5 +43,5 @@ span{@apply text-white}
 /*form.js*/
 form{@apply flex justify-center my-2}
 .searchInput{@apply px-1 mr-1 border-2 rounded-xl border-blue-500 text-lg}
-.submit{@apply bg-blue-500 text-white text-sm rounded-full px-2 py-1 hover:bg-gray-500}
+.submit{@apply bg-red-500 text-white text-sm rounded-full px-2 py-1 hover:bg-gray-500}
 
